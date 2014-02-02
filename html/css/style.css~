@@ -1,0 +1,227 @@
+body {
+  font-family: Arial;
+  font-size: 10pt;
+  color: #666666;
+}
+#main-container{
+max-width: 1080px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#harn_header{margin:15px 0 ;max-width: 1080px}
+/*#harn_content{padding-top: 15px;} */
+a:link{#3399ff;}
+a:visited{#C0C0C0;}
+#harn_rightbar{
+	width: 30%;
+	max-width:330px;padding:0;margin:0
+}
+.navbar .nav > li > a {
+font-style:italic;
+text-transform:uppercase;
+font-size: 11pt;
+padding: 10px 10px;
+font-family: Arial;
+color: #FFFFFF;
+padding: 0;
+margin: 0 15px;
+}
+#searchbar{margin:5px 0;width:30%}
+.navbar .nav { margin:3px;}
+.navbar-inner {
+	margin:10px 0;	
+   min-height: 25px; !important;  
+}
+
+.divider-slash {
+	font-family: Arial;
+	font-style:italic;
+	font-size: 12pt;
+   height: 20px;
+   margin: 0 ;   
+}
+.ds-level2{
+	padding: 0;color: white;
+}
+.divider-slash:after {content: "/";}
+
+.navbar-inner {padding:0}
+
+.FooterLinks{list-style-type: none;margin-left: 0;}
+
+.FooterFAQs{list-style-type: none;margin-left: 0;}
+
+.FooterFAQs li:before{content: "\00BB \0020";margin-left: 0;}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu2 {
+    display: block;    
+}
+
+
+.dropdown-menu2{   
+    background-color: #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: -180px	;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 440px;
+    padding: 2px 0;
+    position: absolute;
+    top: 100%;    
+    z-index: 1000;
+	 height: 20px;
+    min-height: 20px; !important; 
+}
+.dropdown-menu2 li{
+	float: left;		
+	}
+.dropdown-menu2 li >a{
+	font-style:italic;
+	text-transform:uppercase;
+	font-size: 11pt;
+	padding: 5px; 5px;
+	color: #FFFFFF;
+	margin: 0 10px;
+}
+.dropdown-menu2 li >a:hover{
+	text-decoration: none;}
+.box{padding:0px;
+		width: 33%;
+		border:thin solid #CCCCCC;
+		margin:10px 0;
+		text-align: center;
+}
+.box p { margin:0 15px 0 15px;
+}
+.box img{width: 100%;}
+.art-title{
+	float: left;		
+}
+.art-price{
+	float: right;
+}
+.artist-name{
+	float: left;
+	clear: both;
+}
+.artist-country{
+	float: left;
+	clear: both;
+	font-style:italic;
+	font-size: 8pt;
+	}
+#harn_footer{
+	
+	padding-top: 50px;
+}
+#logo{
+	padding-bottom: 20px;
+}
+#top-menu{
+    float: right;
+    list-style: none outside none;
+    padding: 5px 0;}
+
+#top-menu li{float: left;margin:0 0 0 30px;}
+.search-query {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+          margin-right: -5px;
+}
+.navbar-search .btn{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+
+.carousel-caption {
+    background:rgba(180, 180, 180, 0.5)
+}
+
+#harn_content {
+	/*width: 1165px;*/
+	
+}
+
+#harn_content .span8, #harn_menu{
+	width: 70%;
+	max-width: 750px;
+}
+#browse-art-navi{
+	background-color: #F5F5F5;
+	margin-bottom: 20px;
+	padding:10px;
+}
+#harn_content .btn{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+#harn_content .btn-label{
+	padding: 0 2px;
+}
+
+#harn_content .btn-group{
+	margin-bottom: 15px;
+}
+.ba-span{width: 190px;
+	margin-left: 0;
+}
+#harn_content .row{
+	margin-left: 0;
+}
+.breadcrumb{
+	padding:0;
+	background-color:  transparent;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+  
+}
+#harn_content .control-label {
+    float: left;
+    padding: 2px 3px;
+    text-align: left;
+    width: auto;
+    font-size: 10pt;
+}
+#harn_content .controls {
+    margin-left: 0;
+    float: left
+}
+
+#harn_content  .control-group {
+    margin: 2px;
+}
+
+
+#harn_content select {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+    height: 25px;
+    line-height: 25px;  
+    width: 110px;        
+    font-size: 9pt;
+}
+
+#harn_content .form-horizontal .span2{
+	 margin-left: 0;
+	 width: auto;
+	 padding: 2px;
+}
+.btnHarn{
+	padding:5px 20px;
+	text-align:center;font-style:italic;height:40px;font-size:13pt;
+	margin:0;
+text-transform:uppercase;
+}
+#btnSearchArt{
+	padding:0;text-align:center;width:130px;font-style:italic;height:40px;font-size:13pt;
+	margin:10px 0 0 35px;
+}
